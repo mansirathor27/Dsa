@@ -9,7 +9,7 @@ public class MinInRotatedSorted2 {
             if(nums[mid]> nums[right]){
                 left = mid+1;
             }else if(nums[mid] < nums[right]){
-                right = mid-1;
+                right = mid;
             }else{
                 right --;
             }
