@@ -1,4 +1,3 @@
-package Stacks;
 import java.util.*;
 public class ImplementStackUsingQueue {
     Queue<Integer> q;
